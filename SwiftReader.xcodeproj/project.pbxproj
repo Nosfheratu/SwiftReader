@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		ABB1B5D11ACE9F7900CD04D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB1B5D01ACE9F7900CD04D9 /* AppDelegate.swift */; };
 		ABB1B5D41ACE9F7900CD04D9 /* SwiftReader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABB1B5D21ACE9F7900CD04D9 /* SwiftReader.xcdatamodeld */; };
-		ABB1B5D61ACE9F7900CD04D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB1B5D51ACE9F7900CD04D9 /* ViewController.swift */; };
 		ABB1B5D91ACE9F7900CD04D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB1B5D71ACE9F7900CD04D9 /* Main.storyboard */; };
 		ABB1B5DB1ACE9F7900CD04D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB1B5DA1ACE9F7900CD04D9 /* Images.xcassets */; };
 		ABB1B5DE1ACE9F7900CD04D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABB1B5DC1ACE9F7900CD04D9 /* LaunchScreen.xib */; };
 		ABB1B5EA1ACE9F7A00CD04D9 /* SwiftReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB1B5E91ACE9F7A00CD04D9 /* SwiftReaderTests.swift */; };
+		ABB1B5F41ACEAA6700CD04D9 /* FeedsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB1B5F31ACEAA6700CD04D9 /* FeedsTableViewController.swift */; };
+		ABB1B5F61ACEABF700CD04D9 /* ArticlesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB1B5F51ACEABF700CD04D9 /* ArticlesTableViewController.swift */; };
+		ABB1B5F81ACEAE2200CD04D9 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB1B5F71ACEAE2200CD04D9 /* WebViewController.swift */; };
+		ABB1B5FA1ACEB70200CD04D9 /* FeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB1B5F91ACEB70100CD04D9 /* FeedModel.swift */; };
+		ABB1B5FC1ACEB7BC00CD04D9 /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB1B5FB1ACEB7BC00CD04D9 /* ArticleModel.swift */; };
+		ABB1B5FE1ACF439300CD04D9 /* AddFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB1B5FD1ACF439300CD04D9 /* AddFeedViewController.swift */; };
+		ABB1B6001ACF4A7B00CD04D9 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB1B5FF1ACF4A7B00CD04D9 /* Article.swift */; };
+		ABB1B6021ACF4A7C00CD04D9 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB1B6011ACF4A7C00CD04D9 /* Feed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +38,20 @@
 		ABB1B5CF1ACE9F7900CD04D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABB1B5D01ACE9F7900CD04D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABB1B5D31ACE9F7900CD04D9 /* SwiftReader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftReader.xcdatamodel; sourceTree = "<group>"; };
-		ABB1B5D51ACE9F7900CD04D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ABB1B5D81ACE9F7900CD04D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABB1B5DA1ACE9F7900CD04D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ABB1B5DD1ACE9F7900CD04D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ABB1B5E31ACE9F7A00CD04D9 /* SwiftReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB1B5E81ACE9F7A00CD04D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABB1B5E91ACE9F7A00CD04D9 /* SwiftReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftReaderTests.swift; sourceTree = "<group>"; };
+		ABB1B5F31ACEAA6700CD04D9 /* FeedsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedsTableViewController.swift; sourceTree = "<group>"; };
+		ABB1B5F51ACEABF700CD04D9 /* ArticlesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesTableViewController.swift; sourceTree = "<group>"; };
+		ABB1B5F71ACEAE2200CD04D9 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		ABB1B5F91ACEB70100CD04D9 /* FeedModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedModel.swift; sourceTree = "<group>"; };
+		ABB1B5FB1ACEB7BC00CD04D9 /* ArticleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
+		ABB1B5FD1ACF439300CD04D9 /* AddFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFeedViewController.swift; sourceTree = "<group>"; };
+		ABB1B5FF1ACF4A7B00CD04D9 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		ABB1B6011ACF4A7C00CD04D9 /* Feed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +94,19 @@
 			isa = PBXGroup;
 			children = (
 				ABB1B5D01ACE9F7900CD04D9 /* AppDelegate.swift */,
-				ABB1B5D51ACE9F7900CD04D9 /* ViewController.swift */,
 				ABB1B5D71ACE9F7900CD04D9 /* Main.storyboard */,
+				ABB1B5FD1ACF439300CD04D9 /* AddFeedViewController.swift */,
 				ABB1B5DA1ACE9F7900CD04D9 /* Images.xcassets */,
+				ABB1B5F91ACEB70100CD04D9 /* FeedModel.swift */,
+				ABB1B5FB1ACEB7BC00CD04D9 /* ArticleModel.swift */,
 				ABB1B5DC1ACE9F7900CD04D9 /* LaunchScreen.xib */,
 				ABB1B5D21ACE9F7900CD04D9 /* SwiftReader.xcdatamodeld */,
+				ABB1B6011ACF4A7C00CD04D9 /* Feed.swift */,
+				ABB1B5FF1ACF4A7B00CD04D9 /* Article.swift */,
 				ABB1B5CE1ACE9F7900CD04D9 /* Supporting Files */,
+				ABB1B5F31ACEAA6700CD04D9 /* FeedsTableViewController.swift */,
+				ABB1B5F51ACEABF700CD04D9 /* ArticlesTableViewController.swift */,
+				ABB1B5F71ACEAE2200CD04D9 /* WebViewController.swift */,
 			);
 			path = SwiftReader;
 			sourceTree = "<group>";
@@ -215,8 +236,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABB1B5D61ACE9F7900CD04D9 /* ViewController.swift in Sources */,
 				ABB1B5D41ACE9F7900CD04D9 /* SwiftReader.xcdatamodeld in Sources */,
+				ABB1B6021ACF4A7C00CD04D9 /* Feed.swift in Sources */,
+				ABB1B5FA1ACEB70200CD04D9 /* FeedModel.swift in Sources */,
+				ABB1B6001ACF4A7B00CD04D9 /* Article.swift in Sources */,
+				ABB1B5FE1ACF439300CD04D9 /* AddFeedViewController.swift in Sources */,
+				ABB1B5F41ACEAA6700CD04D9 /* FeedsTableViewController.swift in Sources */,
+				ABB1B5F61ACEABF700CD04D9 /* ArticlesTableViewController.swift in Sources */,
+				ABB1B5F81ACEAE2200CD04D9 /* WebViewController.swift in Sources */,
+				ABB1B5FC1ACEB7BC00CD04D9 /* ArticleModel.swift in Sources */,
 				ABB1B5D11ACE9F7900CD04D9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +437,7 @@
 				ABB1B5EF1ACE9F7A00CD04D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABB1B5F01ACE9F7A00CD04D9 /* Build configuration list for PBXNativeTarget "SwiftReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +446,7 @@
 				ABB1B5F21ACE9F7A00CD04D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
